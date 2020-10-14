@@ -147,7 +147,7 @@ document.addEventListener('turbolinks:load', function() {
   setTargetForExternalLinks();
   constructLessonSections(); 
 
-  if (!window.matchMedia('(min-width: 992px)').matches) {
+  if (!window.matchMedia('(min-width: 994px)').matches) {
     return;
   }
   constructLessonNavigation();
