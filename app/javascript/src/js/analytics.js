@@ -3,7 +3,7 @@
 // for the code doing that.
 // format: ('_trackEvent', category, action, label, value)
 
-//Turbolinks magic happens here...
+//Turbolinks magic happens here..
 document.addEventListener("turbolinks:load", function () {
 
   $(function() {
